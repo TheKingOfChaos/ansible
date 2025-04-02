@@ -1,0 +1,10 @@
+[ubuntu]
+JMF-ansible01.jmf.local ansible_host=172.30.20.6
+jmf-librenms02.jmf.local ansible_host=172.30.20.5
+JMF-NTP01.jmf.local ansible_host=172.30.20.4
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
+[ubuntu:vars]
+

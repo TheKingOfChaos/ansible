@@ -1,0 +1,5 @@
+create_user: ansible
+create_group: ansible
+ssh_key_location: /opt/ansible/ssh-keys/ansible.pub
+ssh_port: 22
+ssh_permit_root_login: false
